@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="traffic_analysis.jnlp">
+  <information>
+    <title>SIEM Traffic Analysis</title>
+    <vendor>Unknown</vendor>
+    <description>An app to help analyse .CSV data</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="traffic_analysis.jar" size="13105" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.traffic.analysis.TrafficAnalysisApplication"  name="traffic-analysis" />
+  <update check="background"/>
+</jnlp>
