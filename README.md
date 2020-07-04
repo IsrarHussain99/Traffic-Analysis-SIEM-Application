@@ -1,4 +1,5 @@
 # Traffic-Analysis-SIEM-Application
+(This project can be run by downloading the Final Build and running .JAR, .HTML, or .JNLP files
 - Developed in Java, Spring Framework, Maven.
 
 Source code of my SIEM application allowing Analysts to seperate Security Data.
